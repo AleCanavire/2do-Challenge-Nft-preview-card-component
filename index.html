@@ -2,32 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <section>
+    <article>
+      <div class="image">
+        <img class="cube" src="images/image-equilibrium.jpg">
+        <div class="viewHover">
+          <img src="images/icon-view.svg">
+        </div>
+      </div>
+      <div class="text">
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
 
-  Equilibrium #3429
+      <div class="info">
+        <div class="ethereum">
+          <img src="images/icon-ethereum.svg">
+          <p>0.041 ETH</p>
+        </div>
+        <div class="clock">
+          <img src="images/icon-clock.svg">
+          <p>3 days left</p>
+        </div>
+      </div>
 
-  Our Equilibrium collection promotes balance and calm.
+      <hr>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <div class="perfil">
+        <img src="images/image-avatar.png">
+        <p>Creation of</p><p class="name">Jules Wyvern</p>
+      </div>
+    </article>
+  </section>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/AleCanavire/2do-Challenge-Nft-preview-card-component" target="_blank">Alexander Canavire</a>.
   </div>
 </body>
 </html>
